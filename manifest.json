@@ -1,0 +1,30 @@
+{
+  "id": "funeral-home-operations-manager",
+  "title": "Funeral Home Operations Manager App",
+  "industry": "Retail, Commerce & Consumer",
+  "industryId": "retail-commerce-consumer",
+  "specialization": "Funeral Home Operations Manager",
+  "sourcePlatformGroup": "local-services-platform",
+  "sources": [
+    "AIFuneralHomeOperationsManager",
+    "AIFuneralMemorialCreator",
+    "AIGolfCourseOperationsManager",
+    "AISkiResortOperationsManager"
+  ],
+  "featureCount": 211,
+  "candidateFeatureCount": 312,
+  "eliminatedSimilarFeatures": 101,
+  "evidenceCount": 665,
+  "aiPageCount": 1,
+  "sourceAIPageCount": 1,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 1,
+    "seededTables": 24,
+    "seededRows": 360
+  },
+  "visibleFeatureCount": 33,
+  "featureVisibilityMode": "seeded-or-ai"
+}
