@@ -1,5 +1,124 @@
 [
   {
+    "name": "Accommodations",
+    "canonicalKey": "accommodation",
+    "aliases": [
+      "Accommodations Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AccommodationsPage",
+      "/accommodations"
+    ],
+    "sourceProjects": [
+      "AISkiResortOperationsManager",
+      "AITravelItineraryPlanner"
+    ],
+    "consolidatedFromApps": [
+      "retail-commerce-consumer/classifytravelersecurity",
+      "retail-commerce-consumer/funeral-home-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AISkiResortOperationsManager",
+        "path": "frontend/src/components/Sidebar.js:28",
+        "route": "",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISkiResortOperationsManager",
+        "path": "frontend/src/App.js:106",
+        "route": "/accommodations",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISkiResortOperationsManager",
+        "path": "frontend/src/components/Sidebar.js:28",
+        "route": "/accommodations",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISkiResortOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:28",
+        "route": "/accommodations",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISkiResortOperationsManager",
+        "path": "frontend/src/pages/AccommodationsPage.js",
+        "route": "/AccommodationsPage",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AITravelItineraryPlanner",
+        "path": "frontend/src/components/Sidebar.js:25",
+        "route": "",
+        "originApp": "retail-commerce-consumer/classifytravelersecurity"
+      }
+    ]
+  },
+  {
+    "name": "Active Groups",
+    "canonicalKey": "active group",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/active-groups"
+    ],
+    "sourceProjects": [
+      "AIGolfCourseOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "retail-commerce-consumer/funeral-home-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGolfCourseOperationsManager",
+        "path": "server/routes/agenticMarshal.js:78",
+        "route": "/active-groups",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Aftercare Email",
+    "canonicalKey": "aftercare email",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/aftercare-email"
+    ],
+    "sourceProjects": [
+      "AIFuneralHomeOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "retail-commerce-consumer/funeral-home-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFuneralHomeOperationsManager",
+        "path": "server/index.js:1141",
+        "route": "/api/ai/aftercare-email",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      }
+    ]
+  },
+  {
     "name": "AI Avalanche Risk Assessment Page",
     "canonicalKey": "ai assessment avalanche risk",
     "aliases": [],
@@ -95,13 +214,6 @@
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "Boulevard",
-        "path": "server/src/routes/batch09GapAi.js:37",
-        "route": "/ai-dynamic-pricing",
-        "originApp": "retail-commerce-consumer/laundry-services"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIRVParkCampgroundManager",
         "path": "frontend/src/pages/AIDynamicPricing.jsx",
@@ -114,6 +226,13 @@
         "path": "frontend/src/pages/AIDynamicPricingPage.js",
         "route": "/AIDynamicPricingPage",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "Boulevard",
+        "path": "server/src/routes/batch09GapAi.js:37",
+        "route": "/ai-dynamic-pricing",
+        "originApp": "retail-commerce-consumer/laundry-services"
       },
       {
         "kind": "page",
@@ -185,7 +304,7 @@
   },
   {
     "name": "AI Guest Recommendations Page",
-    "canonicalKey": "ai guest recommendations",
+    "canonicalKey": "ai guest recommendation",
     "aliases": [],
     "kinds": [
       "page"
@@ -389,7 +508,7 @@
   },
   {
     "name": "AI Snow Conditions Page",
-    "canonicalKey": "ai conditions snow",
+    "canonicalKey": "ai condition snow",
     "aliases": [],
     "kinds": [
       "page"
@@ -440,129 +559,10 @@
     ]
   },
   {
-    "name": "Accommodations",
-    "canonicalKey": "accommodation",
-    "aliases": [
-      "Accommodations Page"
-    ],
-    "kinds": [
-      "navigation",
-      "page"
-    ],
-    "routes": [
-      "/AccommodationsPage",
-      "/accommodations"
-    ],
-    "sourceProjects": [
-      "AISkiResortOperationsManager",
-      "AITravelItineraryPlanner"
-    ],
-    "consolidatedFromApps": [
-      "retail-commerce-consumer/classifytravelersecurity",
-      "retail-commerce-consumer/funeral-home-operations-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISkiResortOperationsManager",
-        "path": "frontend/src/components/Sidebar.js:28",
-        "route": "",
-        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISkiResortOperationsManager",
-        "path": "frontend/src/App.js:106",
-        "route": "/accommodations",
-        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISkiResortOperationsManager",
-        "path": "frontend/src/components/Sidebar.js:28",
-        "route": "/accommodations",
-        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISkiResortOperationsManager",
-        "path": "frontend/src/pages/Dashboard.js:28",
-        "route": "/accommodations",
-        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AITravelItineraryPlanner",
-        "path": "frontend/src/components/Sidebar.js:25",
-        "route": "",
-        "originApp": "retail-commerce-consumer/classifytravelersecurity"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISkiResortOperationsManager",
-        "path": "frontend/src/pages/AccommodationsPage.js",
-        "route": "/AccommodationsPage",
-        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      }
-    ]
-  },
-  {
-    "name": "Active Groups",
-    "canonicalKey": "active group",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/active-groups"
-    ],
-    "sourceProjects": [
-      "AIGolfCourseOperationsManager"
-    ],
-    "consolidatedFromApps": [
-      "retail-commerce-consumer/funeral-home-operations-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIGolfCourseOperationsManager",
-        "path": "server/routes/agenticMarshal.js:81",
-        "route": "/active-groups",
-        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      }
-    ]
-  },
-  {
-    "name": "Aftercare Email",
-    "canonicalKey": "aftercare email",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/api/ai/aftercare-email"
-    ],
-    "sourceProjects": [
-      "AIFuneralHomeOperationsManager"
-    ],
-    "consolidatedFromApps": [
-      "retail-commerce-consumer/funeral-home-operations-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1157",
-        "route": "/api/ai/aftercare-email",
-        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      }
-    ]
-  },
-  {
-    "name": "Announcements",
+    "name": "Announcements Page",
     "canonicalKey": "announcement",
     "aliases": [
-      "Announcements Page"
+      "Announcements"
     ],
     "kinds": [
       "page"
@@ -630,7 +630,6 @@
       "/prayers-readings/*",
       "/rsvp/*",
       "/service-checklists/*",
-      "/technician/*",
       "/thank-you-cards/*",
       "/thank-you-tracker/*",
       "/timeline-events/*",
@@ -649,6 +648,7 @@
       "AIEquipmentRentalPlatform",
       "AIFashionDesigner",
       "AIFoodBankPantryManager",
+      "AIFuneralHomeOperationsManager",
       "AIFuneralMemorialCreator",
       "AIGolfCourseOperationsManager",
       "AIHotelRevenueManager",
@@ -710,24 +710,10 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "AISalonSpaBookingOptimizer",
-        "path": "client/src/App.js:132",
+        "sourceProject": "AIPhotographyBusinessManager",
+        "path": "frontend/src/App.js:110",
         "route": "*",
-        "originApp": "retail-commerce-consumer/laundry-services"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "Boulevard",
-        "path": "src/App.tsx:38",
-        "route": "*",
-        "originApp": "retail-commerce-consumer/laundry-services"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "Boulevard",
-        "path": "src/App.tsx:60",
-        "route": "*",
-        "originApp": "retail-commerce-consumer/laundry-services"
+        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
       },
       {
         "kind": "page",
@@ -765,53 +751,11 @@
         "originApp": "retail-commerce-consumer/commercial-cleaning-operations"
       },
       {
-        "kind": "page",
-        "sourceProject": "beautyhqio",
-        "path": "beautyhq-mobile/app/index.tsx",
-        "route": "/",
-        "originApp": "retail-commerce-consumer/local-service-directory"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "beautyhqio",
-        "path": "src/app/page.tsx",
-        "route": "/",
-        "originApp": "retail-commerce-consumer/local-service-directory"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "hairSalon",
-        "path": "src/app/page.tsx",
-        "route": "/",
-        "originApp": "retail-commerce-consumer/local-service-directory"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "homeservices",
-        "path": "src/app/page.tsx",
-        "route": "/",
-        "originApp": "retail-commerce-consumer/local-service-directory"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "localServiceDirectory",
-        "path": "src/app/page.tsx",
-        "route": "/",
-        "originApp": "retail-commerce-consumer/local-service-directory"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPhotographyBusinessManager",
-        "path": "frontend/src/App.js:110",
+        "kind": "api",
+        "sourceProject": "AIFuneralHomeOperationsManager",
+        "path": "server/frontend.js:41",
         "route": "*",
-        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITattooBodyArtStudioManager",
-        "path": "client/src/App.js:152",
-        "route": "/*",
-        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       },
       {
         "kind": "page",
@@ -1040,9 +984,65 @@
       {
         "kind": "page",
         "sourceProject": "genericServiceOrder",
-        "path": "frontend/src/App.tsx:51",
+        "path": "frontend/src/App.tsx:42",
         "route": "*",
         "originApp": "retail-commerce-consumer/generic-ordering-service-enhanced"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISalonSpaBookingOptimizer",
+        "path": "client/src/App.js:132",
+        "route": "*",
+        "originApp": "retail-commerce-consumer/laundry-services"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "Boulevard",
+        "path": "src/App.tsx:38",
+        "route": "*",
+        "originApp": "retail-commerce-consumer/laundry-services"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "Boulevard",
+        "path": "src/App.tsx:60",
+        "route": "*",
+        "originApp": "retail-commerce-consumer/laundry-services"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "beautyhqio",
+        "path": "beautyhq-mobile/app/index.tsx",
+        "route": "/",
+        "originApp": "retail-commerce-consumer/local-service-directory"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "beautyhqio",
+        "path": "src/app/page.tsx",
+        "route": "/",
+        "originApp": "retail-commerce-consumer/local-service-directory"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "hairSalon",
+        "path": "src/app/page.tsx",
+        "route": "/",
+        "originApp": "retail-commerce-consumer/local-service-directory"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "homeservices",
+        "path": "src/app/page.tsx",
+        "route": "/",
+        "originApp": "retail-commerce-consumer/local-service-directory"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "localServiceDirectory",
+        "path": "src/app/page.tsx",
+        "route": "/",
+        "originApp": "retail-commerce-consumer/local-service-directory"
       },
       {
         "kind": "page",
@@ -1067,16 +1067,23 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AITattooBodyArtStudioManager",
+        "path": "client/src/App.js:152",
+        "route": "/*",
+        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
+      },
+      {
+        "kind": "api",
         "sourceProject": "pestControl",
-        "path": "frontend/src/App.jsx:77",
-        "route": "/technician/*",
+        "path": "backend/src/app.js:62",
+        "route": "*",
         "originApp": "retail-commerce-consumer/youth-sports-league-manager"
       },
       {
         "kind": "page",
         "sourceProject": "pestControl",
-        "path": "frontend/src/App.jsx:87",
-        "route": "/*",
+        "path": "frontend/src/App.jsx:21",
+        "route": "*",
         "originApp": "retail-commerce-consumer/youth-sports-league-manager"
       },
       {
@@ -1088,31 +1095,24 @@
       },
       {
         "kind": "page",
-        "sourceProject": "AIPersonalStylist",
-        "path": "frontend/src/App.jsx:98",
+        "sourceProject": "AICircularEconomyUpcyclingMarketplace",
+        "path": "frontend/src/App.jsx:75",
         "route": "*",
-        "originApp": "retail-commerce-consumer/personal-stylist"
+        "originApp": "retail-commerce-consumer/circular-economy-upcycling-marketplace"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPersonalWardrobeOrganizer",
-        "path": "frontend/src/App.js:111",
+        "sourceProject": "AICircularEconomyUpcyclingMarketplace",
+        "path": "frontend/src/App.jsx:94",
         "route": "*",
-        "originApp": "retail-commerce-consumer/personal-stylist"
+        "originApp": "retail-commerce-consumer/circular-economy-upcycling-marketplace"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPersonalWardrobeOrganizer",
-        "path": "frontend/src/App.js:75",
+        "sourceProject": "AIPawnShopSecondhandDealer",
+        "path": "client/src/App.jsx:91",
         "route": "*",
-        "originApp": "retail-commerce-consumer/personal-stylist"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISubscriptionBoxCurator",
-        "path": "frontend/src/App.jsx:130",
-        "route": "*",
-        "originApp": "retail-commerce-consumer/personal-stylist"
+        "originApp": "retail-commerce-consumer/circular-economy-upcycling-marketplace"
       },
       {
         "kind": "page",
@@ -1166,30 +1166,37 @@
       {
         "kind": "page",
         "sourceProject": "AIVirtualShowroomBuilder",
-        "path": "client/src/App.jsx:125",
+        "path": "client/src/App.jsx:127",
         "route": "*",
         "originApp": "retail-commerce-consumer/marketplace-builder-platform"
       },
       {
         "kind": "page",
-        "sourceProject": "AICircularEconomyUpcyclingMarketplace",
-        "path": "frontend/src/App.jsx:75",
+        "sourceProject": "AIPersonalStylist",
+        "path": "frontend/src/App.jsx:98",
         "route": "*",
-        "originApp": "retail-commerce-consumer/circular-economy-upcycling-marketplace"
+        "originApp": "retail-commerce-consumer/personal-stylist"
       },
       {
         "kind": "page",
-        "sourceProject": "AICircularEconomyUpcyclingMarketplace",
-        "path": "frontend/src/App.jsx:94",
+        "sourceProject": "AIPersonalWardrobeOrganizer",
+        "path": "frontend/src/App.js:111",
         "route": "*",
-        "originApp": "retail-commerce-consumer/circular-economy-upcycling-marketplace"
+        "originApp": "retail-commerce-consumer/personal-stylist"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPawnShopSecondhandDealer",
-        "path": "client/src/App.jsx:91",
+        "sourceProject": "AIPersonalWardrobeOrganizer",
+        "path": "frontend/src/App.js:75",
         "route": "*",
-        "originApp": "retail-commerce-consumer/circular-economy-upcycling-marketplace"
+        "originApp": "retail-commerce-consumer/personal-stylist"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISubscriptionBoxCurator",
+        "path": "frontend/src/App.jsx:130",
+        "route": "*",
+        "originApp": "retail-commerce-consumer/personal-stylist"
       },
       {
         "kind": "page",
@@ -1201,14 +1208,42 @@
       {
         "kind": "api",
         "sourceProject": "AIWholesaleDistributionOptimizer",
-        "path": "server/index.js:45",
+        "path": "server/index.js:53",
         "route": "*",
         "originApp": "retail-commerce-consumer/pricing-optimizer"
       },
       {
         "kind": "page",
+        "sourceProject": "AIClassifytravelersecurity",
+        "path": "frontend/src/App.jsx:189",
+        "route": "*",
+        "originApp": "retail-commerce-consumer/classifytravelersecurity"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICommercialKitchenEquipmentMaintenance",
+        "path": "frontend/src/App.jsx:89",
+        "route": "*",
+        "originApp": "retail-commerce-consumer/classifytravelersecurity"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITravelItineraryPlanner",
+        "path": "frontend/src/App.js:178",
+        "route": "*",
+        "originApp": "retail-commerce-consumer/classifytravelersecurity"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITravelItineraryPlanner",
+        "path": "frontend/src/App.js:92",
+        "route": "*",
+        "originApp": "retail-commerce-consumer/classifytravelersecurity"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIBakeryProductionManager",
-        "path": "frontend/src/App.jsx:530",
+        "path": "frontend/src/App.jsx:531",
         "route": "*",
         "originApp": "retail-commerce-consumer/food-bank-pantry-manager"
       },
@@ -1243,7 +1278,7 @@
       {
         "kind": "page",
         "sourceProject": "footTruck",
-        "path": "frontend/src/App.jsx:67",
+        "path": "frontend/src/App.jsx:56",
         "route": "/*",
         "originApp": "retail-commerce-consumer/food-flow-order"
       },
@@ -1267,34 +1302,6 @@
         "path": "frontend/src/pages/PublicMenuPage.tsx:58",
         "route": "",
         "originApp": "retail-commerce-consumer/recipe-meal-planner"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClassifytravelersecurity",
-        "path": "frontend/src/App.jsx:189",
-        "route": "*",
-        "originApp": "retail-commerce-consumer/classifytravelersecurity"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AICommercialKitchenEquipmentMaintenance",
-        "path": "frontend/src/App.jsx:89",
-        "route": "*",
-        "originApp": "retail-commerce-consumer/classifytravelersecurity"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITravelItineraryPlanner",
-        "path": "frontend/src/App.js:178",
-        "route": "*",
-        "originApp": "retail-commerce-consumer/classifytravelersecurity"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITravelItineraryPlanner",
-        "path": "frontend/src/App.js:92",
-        "route": "*",
-        "originApp": "retail-commerce-consumer/classifytravelersecurity"
       }
     ]
   },
@@ -1352,8 +1359,34 @@
       {
         "kind": "api",
         "sourceProject": "AIGolfCourseOperationsManager",
-        "path": "server/routes/memberLTVChurn.js:83",
+        "path": "server/routes/memberLTVChurn.js:80",
         "route": "/at-risk",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Authorizations",
+    "canonicalKey": "authorization",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/authorizations"
+    ],
+    "sourceProjects": [
+      "AIFuneralHomeOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "retail-commerce-consumer/funeral-home-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFuneralHomeOperationsManager",
+        "path": "server/routes/governedCases.js:40",
+        "route": "/:id/authorizations",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
     ]
@@ -1555,7 +1588,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1301",
+        "path": "server/index.js:1285",
         "route": "/api/case-permits",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -2107,7 +2140,7 @@
   },
   {
     "name": "Cf Snow Conditions Forecasting",
-    "canonicalKey": "cf conditions forecasting snow",
+    "canonicalKey": "cf condition forecasting snow",
     "aliases": [],
     "kinds": [
       "page"
@@ -2288,7 +2321,7 @@
       {
         "kind": "api",
         "sourceProject": "AICarWashChainOptimizer",
-        "path": "backend/src/routes/ai.js:261",
+        "path": "backend/src/routes/ai.js:262",
         "route": "/churn-prediction",
         "originApp": "retail-commerce-consumer/generic-ordering-service-enhanced"
       },
@@ -2335,14 +2368,14 @@
       {
         "kind": "api",
         "sourceProject": "AIDaycareOperationsPlatform",
-        "path": "server/routes/ai.js:42",
+        "path": "server/routes/ai.js:45",
         "route": "/compliance-check",
         "originApp": "retail-commerce-consumer/commercial-cleaning-operations"
       },
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1077",
+        "path": "server/index.js:1061",
         "route": "/api/ai/compliance-check",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       },
@@ -2363,10 +2396,10 @@
     ]
   },
   {
-    "name": "Condolence Letters",
+    "name": "Condolence Letters Page",
     "canonicalKey": "condolence letter",
     "aliases": [
-      "Condolence Letters Page"
+      "Condolence Letters"
     ],
     "kinds": [
       "page"
@@ -2394,32 +2427,6 @@
         "sourceProject": "AIFuneralMemorialCreator",
         "path": "client/src/pages/CondolenceLettersPage.jsx",
         "route": "/CondolenceLettersPage",
-        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      }
-    ]
-  },
-  {
-    "name": "Contacts Page",
-    "canonicalKey": "contacts",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ContactsPage"
-    ],
-    "sourceProjects": [
-      "AIFuneralMemorialCreator"
-    ],
-    "consolidatedFromApps": [
-      "retail-commerce-consumer/funeral-home-operations-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIFuneralMemorialCreator",
-        "path": "client/src/pages/ContactsPage.jsx",
-        "route": "/ContactsPage",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
     ]
@@ -2535,7 +2542,7 @@
   },
   {
     "name": "Donations Matching",
-    "canonicalKey": "donations matching",
+    "canonicalKey": "donation matching",
     "aliases": [],
     "kinds": [
       "api",
@@ -2555,7 +2562,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:212",
+        "path": "server/routes/ai.js:213",
         "route": "/donations-matching",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       },
@@ -2597,7 +2604,7 @@
       {
         "kind": "api",
         "sourceProject": "AIHotelRevenueManager",
-        "path": "server/routes/reviewResponseAI.js:36",
+        "path": "server/routes/reviewResponseAI.js:37",
         "route": "/draft",
         "originApp": "retail-commerce-consumer/food-bank-pantry-manager"
       }
@@ -2646,7 +2653,6 @@
       "/dynamic-pricing",
       "/dynamic-pricing/DynamicPricingPage",
       "/gap/dynamic-pricing",
-      "/truck/:truckId/dynamic-pricing",
       "ai/dynamic-pricing"
     ],
     "sourceProjects": [
@@ -2658,7 +2664,6 @@
       "AIVendingMachineNetworkManager",
       "ai-food-flow-order",
       "cateringService",
-      "footTruck",
       "pos"
     ],
     "consolidatedFromApps": [
@@ -2674,7 +2679,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRVParkCampgroundManager",
-        "path": "backend/routes/ai.js:99",
+        "path": "backend/routes/ai.js:94",
         "route": "/dynamic-pricing",
         "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
       },
@@ -2742,13 +2747,6 @@
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       },
       {
-        "kind": "page",
-        "sourceProject": "pos",
-        "path": "frontend/src/App.tsx:228",
-        "route": "/gap/dynamic-pricing",
-        "originApp": "retail-commerce-consumer/inventory-forecasting"
-      },
-      {
         "kind": "api",
         "sourceProject": "AIVendingMachineNetworkManager",
         "path": "backend/src/routes/ai.js:25",
@@ -2768,6 +2766,13 @@
         "path": "frontend/src/components/Layout.jsx:18",
         "route": "/ai/dynamic-pricing",
         "originApp": "retail-commerce-consumer/circular-economy-upcycling-marketplace"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "pos",
+        "path": "frontend/src/App.tsx:228",
+        "route": "/gap/dynamic-pricing",
+        "originApp": "retail-commerce-consumer/inventory-forecasting"
       },
       {
         "kind": "api",
@@ -2819,13 +2824,6 @@
         "originApp": "retail-commerce-consumer/food-flow-order"
       },
       {
-        "kind": "api",
-        "sourceProject": "footTruck",
-        "path": "backend/src/routes/ai.js:944",
-        "route": "/truck/:truckId/dynamic-pricing",
-        "originApp": "retail-commerce-consumer/food-flow-order"
-      },
-      {
         "kind": "page",
         "sourceProject": "ai-food-flow-order",
         "path": "src/pages/dynamic-pricing/DynamicPricingPage.tsx",
@@ -2861,14 +2859,14 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1393",
+        "path": "server/index.js:1377",
         "route": "/api/embalming-chemical-lots",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       },
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1420",
+        "path": "server/index.js:1404",
         "route": "/api/embalming-chemical-lots",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -2894,7 +2892,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1124",
+        "path": "server/index.js:1108",
         "route": "/api/ai/embalming-report",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -2912,16 +2910,13 @@
     ],
     "routes": [
       "/EquipmentMaintenancePage",
-      "/equipment-maintenance",
-      "/gap/equipment-maintenance"
+      "/equipment-maintenance"
     ],
     "sourceProjects": [
-      "AISkiResortOperationsManager",
-      "pestControl"
+      "AISkiResortOperationsManager"
     ],
     "consolidatedFromApps": [
-      "retail-commerce-consumer/funeral-home-operations-manager",
-      "retail-commerce-consumer/youth-sports-league-manager"
+      "retail-commerce-consumer/funeral-home-operations-manager"
     ],
     "evidence": [
       {
@@ -2965,13 +2960,6 @@
         "path": "frontend/src/pages/EquipmentMaintenancePage.js",
         "route": "/EquipmentMaintenancePage",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "pestControl",
-        "path": "frontend/src/App.jsx:123",
-        "route": "/gap/equipment-maintenance",
-        "originApp": "retail-commerce-consumer/youth-sports-league-manager"
       }
     ]
   },
@@ -3018,10 +3006,10 @@
     ]
   },
   {
-    "name": "Estate Items",
+    "name": "Estate Items Page",
     "canonicalKey": "estate item",
     "aliases": [
-      "Estate Items Page"
+      "Estate Items"
     ],
     "kinds": [
       "page"
@@ -3054,10 +3042,10 @@
     ]
   },
   {
-    "name": "Eulogies",
+    "name": "Eulogies Page",
     "canonicalKey": "eulogy",
     "aliases": [
-      "Eulogies Page"
+      "Eulogies"
     ],
     "kinds": [
       "page"
@@ -3094,7 +3082,8 @@
     "canonicalKey": "event",
     "aliases": [
       "Event",
-      "Event Detail"
+      "Event Detail",
+      "Events Page"
     ],
     "kinds": [
       "api",
@@ -3102,8 +3091,10 @@
       "page"
     ],
     "routes": [
+      "/:id/events",
       "/EventDetail",
       "/Events",
+      "/EventsPage",
       "/_/events",
       "/ai/price-elasticity/:id/event",
       "/api/calendar/events",
@@ -3119,19 +3110,28 @@
       "AIFuneralHomeOperationsManager",
       "AIGhostKitchenNetworkManager",
       "AIGolfCourseOperationsManager",
+      "AIPawnShopSecondhandDealer",
       "AIPetHealthMonitor",
+      "AIRVParkCampgroundManager",
       "AISkiResortOperationsManager",
+      "AISubscriptionBoxCurator",
+      "AIVirtualShowroomBuilder",
+      "AIWeddingPlanner",
       "AiECommerceAgent",
       "cateringService",
       "footTruck",
       "laundryServices"
     ],
     "consolidatedFromApps": [
+      "retail-commerce-consumer/cemetery-memorial-park-manager",
+      "retail-commerce-consumer/circular-economy-upcycling-marketplace",
+      "retail-commerce-consumer/commercial-cleaning-operations",
       "retail-commerce-consumer/food-bank-pantry-manager",
       "retail-commerce-consumer/food-flow-order",
       "retail-commerce-consumer/funeral-home-operations-manager",
       "retail-commerce-consumer/generic-ordering-service-enhanced",
       "retail-commerce-consumer/laundry-services",
+      "retail-commerce-consumer/marketplace-builder-platform",
       "retail-commerce-consumer/personal-stylist",
       "retail-commerce-consumer/pet-health-monitor",
       "retail-commerce-consumer/recipe-meal-planner",
@@ -3140,37 +3140,30 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "laundryServices",
-        "path": "backend/src/routes/tracking.js:340",
-        "route": "/order/:orderId/event",
-        "originApp": "retail-commerce-consumer/laundry-services"
+        "sourceProject": "AIRVParkCampgroundManager",
+        "path": "backend/governance/router.js:97",
+        "route": "/:id/events",
+        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
       },
       {
-        "kind": "page",
-        "sourceProject": "AIAnimalShelterRescueManager",
-        "path": "frontend/src/App.jsx:62",
-        "route": "/events",
-        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAnimalShelterRescueManager",
-        "path": "frontend/src/components/Layout.jsx:40",
-        "route": "/events",
-        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAnimalShelterRescueManager",
-        "path": "frontend/src/pages/Dashboard.jsx:22",
-        "route": "/events",
-        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
+        "kind": "api",
+        "sourceProject": "AIWeddingPlanner",
+        "path": "backend/governance/router.js:98",
+        "route": "/:id/events",
+        "originApp": "retail-commerce-consumer/commercial-cleaning-operations"
       },
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:851",
+        "path": "server/index.js:835",
         "route": "/api/calendar/events",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGolfCourseOperationsManager",
+        "path": "server/governance/router.js:77",
+        "route": "/:id/events",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       },
       {
@@ -3209,6 +3202,13 @@
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       },
       {
+        "kind": "page",
+        "sourceProject": "AISkiResortOperationsManager",
+        "path": "frontend/src/pages/EventsPage.js",
+        "route": "/EventsPage",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
         "kind": "api",
         "sourceProject": "AICarWashChainOptimizer",
         "path": "backend/src/routes/webhooks.js:90",
@@ -3217,10 +3217,66 @@
       },
       {
         "kind": "api",
+        "sourceProject": "laundryServices",
+        "path": "backend/src/routes/tracking.js:340",
+        "route": "/order/:orderId/event",
+        "originApp": "retail-commerce-consumer/laundry-services"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIPetHealthMonitor",
-        "path": "backend/src/index.js:131",
+        "path": "backend/src/index.js:132",
         "route": "/api/calendar/events",
         "originApp": "retail-commerce-consumer/pet-health-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAnimalShelterRescueManager",
+        "path": "frontend/src/App.jsx:62",
+        "route": "/events",
+        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAnimalShelterRescueManager",
+        "path": "frontend/src/components/Layout.jsx:40",
+        "route": "/events",
+        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAnimalShelterRescueManager",
+        "path": "frontend/src/pages/Dashboard.jsx:22",
+        "route": "/events",
+        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAnimalShelterRescueManager",
+        "path": "frontend/src/pages/EventsPage.jsx",
+        "route": "/EventsPage",
+        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPawnShopSecondhandDealer",
+        "path": "server/governance/router.js:79",
+        "route": "/:id/events",
+        "originApp": "retail-commerce-consumer/circular-economy-upcycling-marketplace"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVirtualShowroomBuilder",
+        "path": "server/governance/router.js:97",
+        "route": "/:id/events",
+        "originApp": "retail-commerce-consumer/marketplace-builder-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISubscriptionBoxCurator",
+        "path": "backend/src/governance/router.js:98",
+        "route": "/:id/events",
+        "originApp": "retail-commerce-consumer/personal-stylist"
       },
       {
         "kind": "api",
@@ -3228,6 +3284,13 @@
         "path": "backend/src/routes/aiExtra.js:288",
         "route": "/ai/price-elasticity/:id/event",
         "originApp": "retail-commerce-consumer/personal-stylist"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGhostKitchenNetworkManager",
+        "path": "backend/governance/router.js:77",
+        "route": "/:id/events",
+        "originApp": "retail-commerce-consumer/food-bank-pantry-manager"
       },
       {
         "kind": "api",
@@ -3246,14 +3309,14 @@
       {
         "kind": "page",
         "sourceProject": "footTruck",
-        "path": "frontend/src/App.jsx:81",
+        "path": "frontend/src/App.jsx:69",
         "route": "/events",
         "originApp": "retail-commerce-consumer/food-flow-order"
       },
       {
         "kind": "page",
         "sourceProject": "footTruck",
-        "path": "frontend/src/components/Layout.jsx:38",
+        "path": "frontend/src/components/Layout.jsx:34",
         "route": "/events",
         "originApp": "retail-commerce-consumer/food-flow-order"
       },
@@ -3276,13 +3339,6 @@
         "sourceProject": "cateringService",
         "path": "backend/src/routes/client-portal.js:5",
         "route": "/events",
-        "originApp": "retail-commerce-consumer/recipe-meal-planner"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "cateringService",
-        "path": "frontend/src/App.jsx:81",
-        "route": "events",
         "originApp": "retail-commerce-consumer/recipe-meal-planner"
       },
       {
@@ -3475,10 +3531,10 @@
     ]
   },
   {
-    "name": "Funeral Programs",
+    "name": "Funeral Programs Page",
     "canonicalKey": "funeral program",
     "aliases": [
-      "Funeral Programs Page"
+      "Funeral Programs"
     ],
     "kinds": [
       "page"
@@ -3512,7 +3568,7 @@
   },
   {
     "name": "Gap Limited Weather API Integration Stations Are",
-    "canonicalKey": "api are gap integration limited stations weather",
+    "canonicalKey": "api are gap integration limited station weather",
     "aliases": [],
     "kinds": [
       "page"
@@ -3664,7 +3720,7 @@
   },
   {
     "name": "Gap No Donations Matching Causes By Deceased",
-    "canonicalKey": "by causes deceased donations gap matching no",
+    "canonicalKey": "by cause deceased donation gap matching no",
     "aliases": [],
     "kinds": [
       "page"
@@ -4072,7 +4128,7 @@
   },
   {
     "name": "Gap No Notificationssms For Guests",
-    "canonicalKey": "for gap guest no notificationssms",
+    "canonicalKey": "for gap guest no notificationssm",
     "aliases": [],
     "kinds": [
       "page"
@@ -4174,7 +4230,7 @@
   },
   {
     "name": "Gap No Payment Processing For Donations Or",
-    "canonicalKey": "donations for gap no or payment processing",
+    "canonicalKey": "donation for gap no or payment processing",
     "aliases": [],
     "kinds": [
       "page"
@@ -4632,7 +4688,7 @@
   },
   {
     "name": "Gap No Webhook Receivers For Online Tribute",
-    "canonicalKey": "for gap no online receivers tribute webhook",
+    "canonicalKey": "for gap no online receiver tribute webhook",
     "aliases": [],
     "kinds": [
       "page"
@@ -4684,7 +4740,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:127",
+        "path": "server/routes/ai.js:128",
         "route": "/generate-condolence",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -4710,7 +4766,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:155",
+        "path": "server/routes/ai.js:156",
         "route": "/generate-donation-thanks",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -4736,7 +4792,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:75",
+        "path": "server/routes/ai.js:76",
         "route": "/generate-estate-checklist",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -4762,7 +4818,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:47",
+        "path": "server/routes/ai.js:48",
         "route": "/generate-eulogy",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -4788,7 +4844,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:99",
+        "path": "server/routes/ai.js:100",
         "route": "/generate-funeral-program",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -4814,7 +4870,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:87",
+        "path": "server/routes/ai.js:88",
         "route": "/generate-grief-support",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -4840,7 +4896,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:63",
+        "path": "server/routes/ai.js:64",
         "route": "/generate-memorial-bio",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -4868,14 +4924,14 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1029",
+        "path": "server/index.js:1013",
         "route": "/api/ai/generate-obituary",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       },
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:31",
+        "path": "server/routes/ai.js:32",
         "route": "/generate-obituary",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -4901,7 +4957,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:144",
+        "path": "server/routes/ai.js:145",
         "route": "/generate-prayer",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -4927,7 +4983,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:111",
+        "path": "server/routes/ai.js:112",
         "route": "/generate-thank-you",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -4961,7 +5017,7 @@
   },
   {
     "name": "Greens Fees",
-    "canonicalKey": "fees greens",
+    "canonicalKey": "fees green",
     "aliases": [],
     "kinds": [
       "page"
@@ -5005,7 +5061,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1092",
+        "path": "server/index.js:1076",
         "route": "/api/ai/grief-recommendation",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -5031,7 +5087,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1220",
+        "path": "server/index.js:1204",
         "route": "/api/ai/grief-stage-classifier",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -5402,6 +5458,32 @@
     ]
   },
   {
+    "name": "Identity Events",
+    "canonicalKey": "event identity",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/identity-events"
+    ],
+    "sourceProjects": [
+      "AIFuneralHomeOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "retail-commerce-consumer/funeral-home-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFuneralHomeOperationsManager",
+        "path": "server/routes/governedCases.js:25",
+        "route": "/:id/identity-events",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      }
+    ]
+  },
+  {
     "name": "Instructor Scheduling",
     "canonicalKey": "instructor scheduling",
     "aliases": [],
@@ -5510,6 +5592,49 @@
     ]
   },
   {
+    "name": "Integration Runs",
+    "canonicalKey": "integration runs",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/integration-runs"
+    ],
+    "sourceProjects": [
+      "AIFuneralHomeOperationsManager",
+      "AIFuneralMemorialCreator",
+      "AIHotelRevenueManager"
+    ],
+    "consolidatedFromApps": [
+      "retail-commerce-consumer/food-bank-pantry-manager",
+      "retail-commerce-consumer/funeral-home-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFuneralHomeOperationsManager",
+        "path": "server/routes/governedCases.js:64",
+        "route": "/integration-runs",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFuneralMemorialCreator",
+        "path": "server/routes/governedMemorials.js:48",
+        "route": "/integration-runs",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHotelRevenueManager",
+        "path": "server/routes/governedRevenue.js:43",
+        "route": "/integration-runs",
+        "originApp": "retail-commerce-consumer/food-bank-pantry-manager"
+      }
+    ]
+  },
+  {
     "name": "Issue Token",
     "canonicalKey": "issue token",
     "aliases": [],
@@ -5583,7 +5708,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:167",
+        "path": "server/routes/ai.js:168",
         "route": "/legacy-interview-guide",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       },
@@ -5881,13 +6006,6 @@
     ],
     "evidence": [
       {
-        "kind": "page",
-        "sourceProject": "AIAnimalShelterRescueManager",
-        "path": "frontend/src/pages/LostFoundPage.jsx",
-        "route": "/LostFoundPage",
-        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
-      },
-      {
         "kind": "navigation",
         "sourceProject": "AISkiResortOperationsManager",
         "path": "frontend/src/components/Sidebar.js:25",
@@ -5921,6 +6039,13 @@
         "path": "frontend/src/pages/LostFoundPage.js",
         "route": "/LostFoundPage",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAnimalShelterRescueManager",
+        "path": "frontend/src/pages/LostFoundPage.jsx",
+        "route": "/LostFoundPage",
+        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
       }
     ]
   },
@@ -5944,7 +6069,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1452",
+        "path": "server/index.js:1436",
         "route": "/api/embalming-chemical-lots/low-stock-provenance",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -6039,15 +6164,8 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIPressureWashingExteriorCleaning",
-        "path": "server/routes/ai.js:166",
-        "route": "/marketing-content",
-        "originApp": "retail-commerce-consumer/commercial-cleaning-operations"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIRVParkCampgroundManager",
-        "path": "backend/routes/ai.js:207",
+        "path": "backend/routes/ai.js:202",
         "route": "/marketing-content",
         "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
       },
@@ -6067,10 +6185,10 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIMartialArtDojoManager",
-        "path": "backend/routes/ai.js:697",
+        "sourceProject": "AIPressureWashingExteriorCleaning",
+        "path": "server/routes/ai.js:168",
         "route": "/marketing-content",
-        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
+        "originApp": "retail-commerce-consumer/commercial-cleaning-operations"
       },
       {
         "kind": "api",
@@ -6106,6 +6224,13 @@
         "path": "frontend/src/pages/Dashboard.js:53",
         "route": "/ai/marketing-content",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMartialArtDojoManager",
+        "path": "backend/routes/ai.js:697",
+        "route": "/marketing-content",
+        "originApp": "retail-commerce-consumer/tattoo-body-art-studio-manager"
       }
     ]
   },
@@ -6258,10 +6383,10 @@
     ]
   },
   {
-    "name": "Memorial Donations",
+    "name": "Memorial Donations Page",
     "canonicalKey": "donation memorial",
     "aliases": [
-      "Memorial Donations Page"
+      "Memorial Donations"
     ],
     "kinds": [
       "page"
@@ -6295,17 +6420,15 @@
   },
   {
     "name": "Memorial Pages",
-    "canonicalKey": "memorial page",
+    "canonicalKey": "memorial",
     "aliases": [
-      "Memorial Page",
-      "Memorial Pages Page"
+      "Memorial Page"
     ],
     "kinds": [
       "api",
       "page"
     ],
     "routes": [
-      "/MemorialPagesPage",
       "/memorial-page",
       "/memorial-pages"
     ],
@@ -6321,7 +6444,7 @@
       {
         "kind": "api",
         "sourceProject": "AICemeteryMemorialParkManager",
-        "path": "server/routes/ai.js:239",
+        "path": "server/routes/ai.js:240",
         "route": "/memorial-page",
         "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
       },
@@ -6331,7 +6454,26 @@
         "path": "client/src/pages/Dashboard.jsx:25",
         "route": "/memorial-pages",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Memorial Pages Page",
+    "canonicalKey": "memorial page",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/MemorialPagesPage"
+    ],
+    "sourceProjects": [
+      "AIFuneralMemorialCreator"
+    ],
+    "consolidatedFromApps": [
+      "retail-commerce-consumer/funeral-home-operations-manager"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIFuneralMemorialCreator",
@@ -6361,7 +6503,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1368",
+        "path": "server/index.js:1352",
         "route": "/api/ai/memorial-upsell",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -6440,10 +6582,10 @@
     ]
   },
   {
-    "name": "Obituaries",
+    "name": "Obituaries Page",
     "canonicalKey": "obituary",
     "aliases": [
-      "Obituaries Page",
+      "Obituaries",
       "Obituary"
     ],
     "kinds": [
@@ -6467,7 +6609,7 @@
       {
         "kind": "api",
         "sourceProject": "AICemeteryMemorialParkManager",
-        "path": "server/routes/ai.js:118",
+        "path": "server/routes/ai.js:119",
         "route": "/obituary",
         "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
       },
@@ -6512,7 +6654,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRVParkCampgroundManager",
-        "path": "backend/routes/ai.js:258",
+        "path": "backend/routes/ai.js:253",
         "route": "/occupancy-forecast",
         "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
       },
@@ -6554,44 +6696,8 @@
     ]
   },
   {
-    "name": "Open",
-    "canonicalKey": "open",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/open",
-      "/open"
-    ],
-    "sourceProjects": [
-      "AIPawnShopSecondhandDealer",
-      "AISkiResortOperationsManager"
-    ],
-    "consolidatedFromApps": [
-      "retail-commerce-consumer/circular-economy-upcycling-marketplace",
-      "retail-commerce-consumer/funeral-home-operations-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AISkiResortOperationsManager",
-        "path": "backend/src/routes/trails.js:34",
-        "route": "/open",
-        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPawnShopSecondhandDealer",
-        "path": "server/routes/cash-drawer.js:82",
-        "route": "/:id/open",
-        "originApp": "retail-commerce-consumer/circular-economy-upcycling-marketplace"
-      }
-    ]
-  },
-  {
     "name": "Operations Safety",
-    "canonicalKey": "operations safety",
+    "canonicalKey": "operation safety",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -6793,7 +6899,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1259",
+        "path": "server/index.js:1243",
         "route": "/api/ai/permit-checklist",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -6855,7 +6961,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:945",
+        "path": "server/index.js:929",
         "route": "/api/cases/pipeline",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -7113,13 +7219,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AiECommerceAgent",
-        "path": "backend/routes/batch03Gaps.js:53",
-        "route": "pool",
-        "originApp": "retail-commerce-consumer/personal-stylist"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIInventoryForecasting",
         "path": "backend/routes/gap-live-erp-sap-netsuite-integrations-still.js:25",
         "route": "pool",
@@ -7194,6 +7293,13 @@
         "path": "backend/routes/batch03Gaps.js:53",
         "route": "pool",
         "originApp": "retail-commerce-consumer/marketplace-builder-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiECommerceAgent",
+        "path": "backend/routes/batch03Gaps.js:53",
+        "route": "pool",
+        "originApp": "retail-commerce-consumer/personal-stylist"
       },
       {
         "kind": "api",
@@ -7385,10 +7491,10 @@
     ]
   },
   {
-    "name": "Prayers Readings",
+    "name": "Prayers Readings Page",
     "canonicalKey": "prayer reading",
     "aliases": [
-      "Prayers Readings Page"
+      "Prayers Readings"
     ],
     "kinds": [
       "page"
@@ -7440,7 +7546,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1332",
+        "path": "server/index.js:1316",
         "route": "/api/ai/preneed-at-risk",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -7466,7 +7572,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1191",
+        "path": "server/index.js:1175",
         "route": "/api/ai/preneed-conversion-summary",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -7495,14 +7601,14 @@
       {
         "kind": "api",
         "sourceProject": "AIPhotographyBusinessManager",
-        "path": "backend/routes/ai.js:480",
+        "path": "backend/routes/ai.js:455",
         "route": "/pricing-estimate",
         "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
       },
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
-        "path": "server/index.js:1107",
+        "path": "server/index.js:1091",
         "route": "/api/ai/pricing-estimate",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       }
@@ -7686,27 +7792,6 @@
     ],
     "evidence": [
       {
-        "kind": "page",
-        "sourceProject": "hairSalon",
-        "path": "src/app/(dashboard)/dashboard/page.tsx:170",
-        "route": "/retail",
-        "originApp": "retail-commerce-consumer/local-service-directory"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "hairSalon",
-        "path": "src/app/(dashboard)/retail/page.tsx",
-        "route": "/retail",
-        "originApp": "retail-commerce-consumer/local-service-directory"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "hairSalon",
-        "path": "src/components/Sidebar.tsx:64",
-        "route": "/retail",
-        "originApp": "retail-commerce-consumer/local-service-directory"
-      },
-      {
         "kind": "navigation",
         "sourceProject": "AISkiResortOperationsManager",
         "path": "frontend/src/components/Sidebar.js:32",
@@ -7740,6 +7825,27 @@
         "path": "frontend/src/pages/RetailPage.js",
         "route": "/RetailPage",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "hairSalon",
+        "path": "src/app/(dashboard)/dashboard/page.tsx:166",
+        "route": "/retail",
+        "originApp": "retail-commerce-consumer/local-service-directory"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "hairSalon",
+        "path": "src/app/(dashboard)/retail/page.tsx",
+        "route": "/retail",
+        "originApp": "retail-commerce-consumer/local-service-directory"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "hairSalon",
+        "path": "src/components/Sidebar.tsx:62",
+        "route": "/retail",
+        "originApp": "retail-commerce-consumer/local-service-directory"
       },
       {
         "kind": "page",
@@ -7810,7 +7916,7 @@
       {
         "kind": "api",
         "sourceProject": "AICarWashChainOptimizer",
-        "path": "backend/src/routes/ai.js:297",
+        "path": "backend/src/routes/ai.js:298",
         "route": "/revenue-optimization",
         "originApp": "retail-commerce-consumer/generic-ordering-service-enhanced"
       }
@@ -7946,6 +8052,32 @@
     ]
   },
   {
+    "name": "Runtime Config Js",
+    "canonicalKey": "config js runtime",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/runtime-config.js"
+    ],
+    "sourceProjects": [
+      "AIFuneralHomeOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "retail-commerce-consumer/funeral-home-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFuneralHomeOperationsManager",
+        "path": "server/frontend.js:33",
+        "route": "/runtime-config.js",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      }
+    ]
+  },
+  {
     "name": "Score Analysis",
     "canonicalKey": "analysis score",
     "aliases": [],
@@ -8030,10 +8162,10 @@
     ]
   },
   {
-    "name": "Service Checklists",
+    "name": "Service Checklists Page",
     "canonicalKey": "checklist service",
     "aliases": [
-      "Service Checklists Page"
+      "Service Checklists"
     ],
     "kinds": [
       "page"
@@ -8199,7 +8331,7 @@
   },
   {
     "name": "Slope Conditions Heatmap",
-    "canonicalKey": "conditions heatmap slope",
+    "canonicalKey": "condition heatmap slope",
     "aliases": [],
     "kinds": [
       "api"
@@ -8657,10 +8789,10 @@
     ]
   },
   {
-    "name": "Thank You Cards",
+    "name": "Thank You Cards Page",
     "canonicalKey": "card thank you",
     "aliases": [
-      "Thank You Cards Page"
+      "Thank You Cards"
     ],
     "kinds": [
       "api",
@@ -8729,10 +8861,10 @@
     ]
   },
   {
-    "name": "Timeline Events",
+    "name": "Timeline Events Page",
     "canonicalKey": "event timeline",
     "aliases": [
-      "Timeline Events Page"
+      "Timeline Events"
     ],
     "kinds": [
       "page"
@@ -8786,7 +8918,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
-        "path": "server/routes/ai.js:189",
+        "path": "server/routes/ai.js:190",
         "route": "/timeline-narrative",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
       },
@@ -8938,10 +9070,10 @@
     ]
   },
   {
-    "name": "Travel Accommodations",
+    "name": "Travel Accommodations Page",
     "canonicalKey": "accommodation travel",
     "aliases": [
-      "Travel Accommodations Page"
+      "Travel Accommodations"
     ],
     "kinds": [
       "page"
@@ -9068,27 +9200,47 @@
   },
   {
     "name": "Venues Page",
-    "canonicalKey": "venues",
-    "aliases": [],
+    "canonicalKey": "venue",
+    "aliases": [
+      "Venues"
+    ],
     "kinds": [
       "page"
     ],
     "routes": [
-      "/VenuesPage"
+      "/Venues",
+      "/VenuesPage",
+      "/venues"
     ],
     "sourceProjects": [
-      "AIFuneralMemorialCreator"
+      "AIFuneralMemorialCreator",
+      "cateringService"
     ],
     "consolidatedFromApps": [
-      "retail-commerce-consumer/funeral-home-operations-manager"
+      "retail-commerce-consumer/funeral-home-operations-manager",
+      "retail-commerce-consumer/recipe-meal-planner"
     ],
     "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIFuneralMemorialCreator",
+        "path": "client/src/pages/Dashboard.jsx:137",
+        "route": "/venues",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
       {
         "kind": "page",
         "sourceProject": "AIFuneralMemorialCreator",
         "path": "client/src/pages/VenuesPage.jsx",
         "route": "/VenuesPage",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "cateringService",
+        "path": "frontend/src/pages/Venues.jsx",
+        "route": "/Venues",
+        "originApp": "retail-commerce-consumer/recipe-meal-planner"
       }
     ]
   },
