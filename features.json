@@ -189,28 +189,24 @@
       "AI Dynamic Pricing"
     ],
     "kinds": [
-      "api",
       "page"
     ],
     "routes": [
       "/AIDynamicPricing",
       "/AIDynamicPricingPage",
-      "/admin/gap/ai-dynamic-pricing",
-      "/ai-dynamic-pricing"
+      "/admin/gap/ai-dynamic-pricing"
     ],
     "sourceProjects": [
       "AIGhostKitchenNetworkManager",
       "AIRVParkCampgroundManager",
       "AISkiResortOperationsManager",
-      "Boulevard",
       "ai-food-flow-order"
     ],
     "consolidatedFromApps": [
       "retail-commerce-consumer/cemetery-memorial-park-manager",
       "retail-commerce-consumer/food-bank-pantry-manager",
       "retail-commerce-consumer/food-flow-order",
-      "retail-commerce-consumer/funeral-home-operations-manager",
-      "retail-commerce-consumer/laundry-services"
+      "retail-commerce-consumer/funeral-home-operations-manager"
     ],
     "evidence": [
       {
@@ -226,13 +222,6 @@
         "path": "frontend/src/pages/AIDynamicPricingPage.js",
         "route": "/AIDynamicPricingPage",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "Boulevard",
-        "path": "server/src/routes/batch09GapAi.js:37",
-        "route": "/ai-dynamic-pricing",
-        "originApp": "retail-commerce-consumer/laundry-services"
       },
       {
         "kind": "page",
@@ -2354,37 +2343,19 @@
     ],
     "sourceProjects": [
       "AICommercialKitchenEquipmentMaintenance",
-      "AIDaycareOperationsPlatform",
-      "AIFuneralHomeOperationsManager",
-      "AIPawnShopSecondhandDealer"
+      "AIFuneralHomeOperationsManager"
     ],
     "consolidatedFromApps": [
-      "retail-commerce-consumer/circular-economy-upcycling-marketplace",
       "retail-commerce-consumer/classifytravelersecurity",
-      "retail-commerce-consumer/commercial-cleaning-operations",
       "retail-commerce-consumer/funeral-home-operations-manager"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIDaycareOperationsPlatform",
-        "path": "server/routes/ai.js:45",
-        "route": "/compliance-check",
-        "originApp": "retail-commerce-consumer/commercial-cleaning-operations"
-      },
       {
         "kind": "api",
         "sourceProject": "AIFuneralHomeOperationsManager",
         "path": "server/index.js:1061",
         "route": "/api/ai/compliance-check",
         "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPawnShopSecondhandDealer",
-        "path": "server/routes/ai.js:979",
-        "route": "/compliance-check",
-        "originApp": "retail-commerce-consumer/circular-economy-upcycling-marketplace"
       },
       {
         "kind": "api",
@@ -2545,10 +2516,12 @@
     "canonicalKey": "donation matching",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
+      "/ai-legacy-tools/*?tool=donations-matching",
       "/ai/donations-matching",
       "/donations-matching"
     ],
@@ -2559,6 +2532,13 @@
       "retail-commerce-consumer/funeral-home-operations-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFuneralMemorialCreator",
+        "path": "client/src/pages/AILegacyToolsPage.jsx:1",
+        "route": "/ai-legacy-tools/*?tool=donations-matching",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
@@ -2656,10 +2636,7 @@
       "ai/dynamic-pricing"
     ],
     "sourceProjects": [
-      "AIGhostKitchenNetworkManager",
       "AIGolfCourseOperationsManager",
-      "AIHotelRevenueManager",
-      "AIRVParkCampgroundManager",
       "AISkiResortOperationsManager",
       "AIVendingMachineNetworkManager",
       "ai-food-flow-order",
@@ -2667,36 +2644,13 @@
       "pos"
     ],
     "consolidatedFromApps": [
-      "retail-commerce-consumer/cemetery-memorial-park-manager",
       "retail-commerce-consumer/circular-economy-upcycling-marketplace",
-      "retail-commerce-consumer/food-bank-pantry-manager",
       "retail-commerce-consumer/food-flow-order",
       "retail-commerce-consumer/funeral-home-operations-manager",
       "retail-commerce-consumer/inventory-forecasting",
       "retail-commerce-consumer/recipe-meal-planner"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIRVParkCampgroundManager",
-        "path": "backend/routes/ai.js:94",
-        "route": "/dynamic-pricing",
-        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRVParkCampgroundManager",
-        "path": "frontend/src/App.jsx:102",
-        "route": "/ai/dynamic-pricing",
-        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRVParkCampgroundManager",
-        "path": "frontend/src/pages/Dashboard.jsx:54",
-        "route": "/ai/dynamic-pricing",
-        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
-      },
       {
         "kind": "api",
         "sourceProject": "AIGolfCourseOperationsManager",
@@ -2773,41 +2727,6 @@
         "path": "frontend/src/App.tsx:228",
         "route": "/gap/dynamic-pricing",
         "originApp": "retail-commerce-consumer/inventory-forecasting"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGhostKitchenNetworkManager",
-        "path": "backend/routes/ai.js:123",
-        "route": "/dynamic-pricing",
-        "originApp": "retail-commerce-consumer/food-bank-pantry-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIGhostKitchenNetworkManager",
-        "path": "frontend/src/App.jsx:114",
-        "route": "/ai/dynamic-pricing",
-        "originApp": "retail-commerce-consumer/food-bank-pantry-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIGhostKitchenNetworkManager",
-        "path": "frontend/src/App.jsx:216",
-        "route": "/ai/dynamic-pricing",
-        "originApp": "retail-commerce-consumer/food-bank-pantry-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIGhostKitchenNetworkManager",
-        "path": "frontend/src/pages/Dashboard.jsx:51",
-        "route": "/ai/dynamic-pricing",
-        "originApp": "retail-commerce-consumer/food-bank-pantry-manager"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIHotelRevenueManager",
-        "path": "client/src/components/Sidebar.jsx:38",
-        "route": "",
-        "originApp": "retail-commerce-consumer/food-bank-pantry-manager"
       },
       {
         "kind": "api",
@@ -5691,10 +5610,12 @@
     "canonicalKey": "guide interview legacy",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
+      "/ai-legacy-tools/*?tool=legacy-interview-guide",
       "/ai/legacy-interview-guide",
       "/legacy-interview-guide"
     ],
@@ -5705,6 +5626,13 @@
       "retail-commerce-consumer/funeral-home-operations-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFuneralMemorialCreator",
+        "path": "client/src/pages/AILegacyToolsPage.jsx:1",
+        "route": "/ai-legacy-tools/*?tool=legacy-interview-guide",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",
@@ -6152,37 +6080,14 @@
     "sourceProjects": [
       "AIMartialArtDojoManager",
       "AIPressureWashingExteriorCleaning",
-      "AIRVParkCampgroundManager",
       "AISkiResortOperationsManager"
     ],
     "consolidatedFromApps": [
-      "retail-commerce-consumer/cemetery-memorial-park-manager",
       "retail-commerce-consumer/commercial-cleaning-operations",
       "retail-commerce-consumer/funeral-home-operations-manager",
       "retail-commerce-consumer/tattoo-body-art-studio-manager"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIRVParkCampgroundManager",
-        "path": "backend/routes/ai.js:202",
-        "route": "/marketing-content",
-        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRVParkCampgroundManager",
-        "path": "frontend/src/App.jsx:106",
-        "route": "/ai/marketing-content",
-        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRVParkCampgroundManager",
-        "path": "frontend/src/pages/Dashboard.jsx:58",
-        "route": "/ai/marketing-content",
-        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
-      },
       {
         "kind": "api",
         "sourceProject": "AIPressureWashingExteriorCleaning",
@@ -6643,28 +6548,12 @@
       "/occupancy-forecast"
     ],
     "sourceProjects": [
-      "AIRVParkCampgroundManager",
       "AISkiResortOperationsManager"
     ],
     "consolidatedFromApps": [
-      "retail-commerce-consumer/cemetery-memorial-park-manager",
       "retail-commerce-consumer/funeral-home-operations-manager"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIRVParkCampgroundManager",
-        "path": "backend/routes/ai.js:253",
-        "route": "/occupancy-forecast",
-        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRVParkCampgroundManager",
-        "path": "frontend/src/App.jsx:108",
-        "route": "/ai/occupancy-forecast",
-        "originApp": "retail-commerce-consumer/cemetery-memorial-park-manager"
-      },
       {
         "kind": "api",
         "sourceProject": "AISkiResortOperationsManager",
@@ -8901,10 +8790,12 @@
     "canonicalKey": "narrative timeline",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
+      "/ai-legacy-tools/*?tool=timeline-narrative",
       "/ai/timeline-narrative",
       "/timeline-narrative"
     ],
@@ -8915,6 +8806,13 @@
       "retail-commerce-consumer/funeral-home-operations-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFuneralMemorialCreator",
+        "path": "client/src/pages/AILegacyToolsPage.jsx:1",
+        "route": "/ai-legacy-tools/*?tool=timeline-narrative",
+        "originApp": "retail-commerce-consumer/funeral-home-operations-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIFuneralMemorialCreator",

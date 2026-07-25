@@ -14,9 +14,9 @@
   "featureCount": 214,
   "candidateFeatureCount": 324,
   "eliminatedSimilarFeatures": 110,
-  "evidenceCount": 677,
-  "aiPageCount": 1,
-  "sourceAIPageCount": 1,
+  "evidenceCount": 664,
+  "aiPageCount": 3,
+  "sourceAIPageCount": 3,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 24,
     "seededRows": 360
   },
-  "visibleFeatureCount": 35,
+  "visibleFeatureCount": 37,
   "featureVisibilityMode": "seeded-or-ai"
 }
