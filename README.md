@@ -3,7 +3,7 @@
 Industry: **Retail, Commerce & Consumer**  
 Specialization: **Funeral Home Operations Manager**
 
-This standalone application consolidates source-backed capabilities into 214 optimized features, including 37 visible data-backed or AI-enabled views. Its public demo SQLite database contains 360 sanitized source rows across 24 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 214 optimized features, including all 214 source-backed feature views. Its public demo SQLite database contains 360 sanitized source rows across 24 imported tables and 120 operational workflow records.
 
 ## Run locally
 
